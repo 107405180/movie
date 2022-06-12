@@ -72,6 +72,13 @@ nav {
     justify-content: space-between;
     text-align: center;
     padding: 25px 30px;
+
+    /* 
+        怕 navbar 被下面的內容覆蓋掉，
+        所以用 z-index 將 navbar 移到
+        畫面最前方
+    */
+    /*z-index: 10;*/
 }
 
 .mynavbar li {
@@ -123,26 +130,27 @@ nav {
 
 .articleframe {
     font-family: 'Noto Sans TC', sans-serif;
-    position: relative;
-    top: 230px;
+    /* position: relative; */
+    /* top: 230px; */
     background-color: #FEFFF9;
     width: 340px;
-    height: 425px;
+    /* height: 425px; */
     border-radius: 30px;
     margin-bottom: 60px;
 
+    padding: 25px;
 }
 
 
 .articleframepic {
-    position: relative;
+    /* position: relative; */
     background-color: #7a2424;
     width: 289px;
     height: 217px;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
-    top: 26px;
+    /* top: 26px; */
 
 }
 
@@ -155,17 +163,18 @@ nav {
 
 .articleframetitle {
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
+    /* position: absolute; */
     width: 292px;
     height: 79px;
-    left: 26px;
-    top: 250px;
+    /* left: 26px; */
+    /* top: 250px; */
     line-height: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     color: rgb(39, 38, 38);
 
+    margin-top: 29px;
 }
 
 .articleframetitle a{
@@ -179,26 +188,27 @@ nav {
 }
 .articleframeauthor {
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
+    /* position: absolute; */
     width: 57px;
     height: 21px;
-    left: 26px;
-    bottom: 42px;
+    /* left: 26px; */
+    /* bottom: 42px; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #808080;
 
+    margin-top: 27px;
 }
 
 .articleframedate {
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
+    /* position: absolute; */
     width: 85px;
     height: 21px;
-    right: 26px;
-    bottom: 42px;
+    /* right: 26px; */
+    /* bottom: 42px; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -214,7 +224,6 @@ nav {
 .footer {
     width: 100vw;
     position: relative;
-    bottom: -250px;
     background-color: #E9706E;
     height: 180px;
     display: flex;
@@ -253,6 +262,7 @@ nav {
     font-weight: 500;
     position: absolute;
     bottom: 30px;
+    text-align: center;
 }
 
 
