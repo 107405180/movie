@@ -1,84 +1,4 @@
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
 video {
     margin: 0;
     padding: 0;
@@ -88,17 +8,6 @@ video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
 section {
     display: block;
 }
@@ -197,93 +106,8 @@ nav {
     font-weight: 700;
 }
 
-/* 電影卡*/
+/* 白底電影卡*/
 
-.all {
-    width: 100vw;
-
-
-}
-
-.title2 {
-    position: relative;
-    display: inline-block;
-    vertical-align: bottom;
-    margin: auto;
-    height: 90px;
-    left: 635px;
-    top: 130px;
-    width: 180px;
-    margin-right: auto;
-
-}
-
-.title2 .font {
-    height: 53px;
-    font-family: 'Noto Sans CJK TC';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 67px;
-    display: inline-block;
-    margin-left: 8px;
-    letter-spacing: 0.05em;
-    color: #E9706E;
-}
-
-.title2>img {
-    margin-left: 5px;
-    height: 40px;
-    vertical-align: text-bottom;
-
-}
-
-.title4>img {
-    margin-left: 5px;
-    height: 40px;
-    vertical-align: text-bottom;
-
-}
-
-.title5>img {
-    margin-left: 5px;
-    height: 40px;
-    vertical-align: text-bottom;
-
-}
-
-.title2 .bottom {
-    position: absolute;
-    right: 15px;
-    margin-top: 12px;
-    height: 5px;
-    background-color: #E9706E;
-    width: 170px;
-    border-radius: 30px;
-
-}
-
-/* 卡片在這裡 */
-/* card area */
-
-
-
-.block {
-    background-color: white;
-    width: 45%;
-    height: 600px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#overflowTest {
-
-    padding: 30px;
-    width: 45%;
-    height: 700px;
-    overflow: scroll;
-
-}
 
 .articlecover {
     width: 1126px;
@@ -384,23 +208,6 @@ nav {
 
 }
 
-br {
-    content: "";
-    display: block;
-    font-size: 100%;
-    height: 6pt;
-    outline: red;
-    display: block;
-}
-
-.ans {
-    height: 400pt;
-}
-
-span {
-    font-family: 'Noto Sans TC', sans-serif;
-    padding-bottom: 270px;
-}
 
 /* 最下面那條在這裡 */
 /* footer */
